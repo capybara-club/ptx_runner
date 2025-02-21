@@ -66,6 +66,7 @@ int main(int argc, char **argv) {
         nvPTXCompilerCreate(&compiler, file_data_size, file_data)
     );
 
+
     static const char* compile_options[] = { 
         "--gpu-name=sm_89",
         "--verbose"
